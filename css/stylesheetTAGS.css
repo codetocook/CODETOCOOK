@@ -1,0 +1,223 @@
+html{
+    background-color: #073763ff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: white;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+header {
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-left:40px;
+ 
+}
+
+.logo {
+    height: 125px;
+    width: 125px;
+    overflow: hidden;
+}
+
+.logo-link:hover {
+    opacity: 70%;
+}
+
+.title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    margin:0;
+}
+
+.slogan {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    margin:2;
+}
+
+.headingtext {
+    color: white;
+    margin: 0;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+
+}
+
+.body-container-1 {
+    display: flex;
+    background-color: white;
+}
+
+
+.site-nav ul {
+    position: relative;
+    margin-left: -20px;
+}
+
+.site-nav li {
+    list-style: none;
+    margin-right: 30px;
+}
+
+.site-nav a{
+    display: block;
+    text-decoration: none;
+    color: #073763ff;
+    background-color: #cfe2f3ff;
+    padding: 10px 20px;
+    border: 3px solid #073763ff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.site-nav a:hover {
+    opacity: 70%;
+}
+
+.gallery {
+    flex: 2;
+    background-color: bisque;
+    margin: 15px;
+    padding-bottom: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+
+.gallery h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    flex: 1;
+    color: black;
+}
+
+.all-images {
+    flex: 2;
+    display: flex;
+    position: relative;
+    padding: 20px;
+    padding-top: 0px;
+    margin: 22px;
+}
+
+.img1 {
+    flex:1;
+    padding: 10px;
+}
+.img2 {
+    flex:2;
+    padding: 10px;
+}
+.img3 {
+    flex:3;
+    padding: 10px;
+}
+.img4 {
+    flex:4;
+    padding: 10px;
+    position: relative;
+}
+
+.img1 p,
+.img2 p,
+.img3 p,
+.img4 p {
+    border: 2px solid #FFFFFF;
+    color: white;
+    background-color: #b45f06ff;
+    padding: 2px;
+    font-weight: bold;
+}
+
+.img1 p:hover,
+.img2 p:hover,
+.img3 p:hover,
+.img4 p:hover {
+    background-color: sienna;
+}
+
+.img1 a,
+.img2 a,
+.img3 a,
+.img4 a {
+    text-decoration: none;
+}
+
+.img1 .gal-img:hover,
+.img2 .gal-img:hover,
+.img3 .gal-img:hover,
+.img4 .gal-img:hover {
+    opacity: 50%;
+}
+
+.gal-img {
+    width: 200px;
+    height: 250px;
+    border: 3px solid #b45f06ff;
+    box-shadow: inset 20px 10px 10px black;
+    display: block;
+}
+
+.body-container-2 {
+    display: flex;
+    background-color: white;
+}
+
+
+
+.main-blog-post {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.main-blog-post p{
+    font-size: 18px;
+    text-indent: 5%;
+    line-height: 150%;
+    font-weight: 500;
+}
+
+.main-blog-post h3{
+    font-size: 24px;
+    text-shadow: 3px 3px 8px black;
+}
+
+.main-blog-post h4 {
+    color:#073763ff;
+    font-size: 18px;
+    text-indent: 5%;
+}
+
+
+footer {
+    border-top: 3px solid black;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+.group {
+	zoom: 1;
+}

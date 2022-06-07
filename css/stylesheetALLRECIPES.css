@@ -1,0 +1,154 @@
+html{
+    background-color: #073763ff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: white;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+header {
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-left:40px;
+ 
+}
+
+.logo {
+    height: 125px;
+    width: 125px;
+    border: 0;
+    overflow: hidden;
+}
+
+.logo-link:hover {
+    opacity: 70%;
+}
+
+.title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    margin:0;
+}
+
+.slogan {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    margin:2;
+}
+
+.headingtext {
+    color: white;
+    margin: 0;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+
+}
+
+.body-container-1 {
+    display: flex;
+    background-color: white;
+}
+
+
+.site-nav ul {
+    position: relative;
+    margin-left: -20px;
+}
+
+.site-nav li {
+    list-style: none;
+    margin-right: 30px;
+}
+
+.site-nav a{
+    display: block;
+    text-decoration: none;
+    color: #073763ff;
+    background-color: #cfe2f3ff;
+    padding: 10px 20px;
+    border: 3px solid #073763ff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.site-nav a:hover {
+    opacity: 70%;
+}
+
+
+.container-05 {
+    color: black;
+    flex: 2;
+    background-color: white;
+    margin: 15px;
+    padding-bottom: 20px;
+    text-align: center;
+    display: flex;
+}
+
+.text-container h3 {
+    color:black;
+    font-size: 20px;
+    text-indent: 5%;
+}
+
+.text-container h4 {
+    color:#073763ff;
+    font-size: 16px;
+    text-indent: 5%;
+}
+
+.text-container p {
+    text-align: left;
+    color:#073763ff;
+}
+
+
+.text-container ul,
+.text-container li {
+    text-align: left;
+}
+
+.gal-img {
+    width: 400px;
+    height: 500px;
+    padding-left: 40px;
+}
+
+
+.body-container-2 {
+    display: flex;
+    background-color: white;
+}
+
+footer {
+    border-top: 3px solid black;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+.group {
+	zoom: 1;
+}
