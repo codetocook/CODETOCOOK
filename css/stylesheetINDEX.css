@@ -103,6 +103,11 @@ header {
     display: inline-block;
 }
 
+.gallery a:hover{
+    border:2px solid white;
+    opacity: 90%;
+}
+
 .body-container-2 {
     display: flex;
     background-color: white;
@@ -133,6 +138,10 @@ header {
     padding-bottom: 5px;
     padding-left: 15px;
     padding-right: 15px;
+}
+
+.contact img:hover{
+    opacity: 80%;
 }
 
 
